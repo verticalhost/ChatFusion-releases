@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" width="260" height="64">
+<g transform="scale(1)">
+  <rect x="0" y="0" width="64" height="64" rx="16" fill="#123a6b"/>
+  <path d="M20 20 C34 20 30 32 44 32" stroke="#35b8e8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M18 32 C32 32 32 32 44 32" stroke="#3fd0b0" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M20 44 C34 44 30 32 44 32" stroke="#7aa6f0" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <g><rect x="10" y="13" width="17" height="10.54" rx="3.1619999999999995" fill="#35b8e8"/><path d="M13.06 23.54 l0 3.5836 l4.42 -3.5836 z" fill="#35b8e8"/></g>
+  <circle cx="15.379999999999999" cy="18.3" r="1.2" fill="#123a6b"/><circle cx="18.5" cy="18.3" r="1.2" fill="#123a6b"/><circle cx="21.62" cy="18.3" r="1.2" fill="#123a6b"/>
+  <g><rect x="8" y="25" width="17" height="10.54" rx="3.1619999999999995" fill="#3fd0b0"/><path d="M11.06 35.54 l0 3.5836 l4.42 -3.5836 z" fill="#3fd0b0"/></g>
+  <circle cx="13.379999999999999" cy="30.3" r="1.2" fill="#123a6b"/><circle cx="16.5" cy="30.3" r="1.2" fill="#123a6b"/><circle cx="19.62" cy="30.3" r="1.2" fill="#123a6b"/>
+  <g><rect x="10" y="37" width="17" height="10.54" rx="3.1619999999999995" fill="#7aa6f0"/><path d="M13.06 47.54 l0 3.5836 l4.42 -3.5836 z" fill="#7aa6f0"/></g>
+  <circle cx="15.379999999999999" cy="42.3" r="1.2" fill="#123a6b"/><circle cx="18.5" cy="42.3" r="1.2" fill="#123a6b"/><circle cx="21.62" cy="42.3" r="1.2" fill="#123a6b"/>
+  <g><rect x="36" y="23" width="22" height="13.64" rx="4.092" fill="#ffffff"/><path d="M39.96 36.64 l0 4.637600000000001 l5.720000000000001 -4.637600000000001 z" fill="#ffffff"/></g>
+  <circle cx="42.58" cy="29.8" r="1.7" fill="#123a6b"/><circle cx="47" cy="29.8" r="1.7" fill="#123a6b"/><circle cx="51.42" cy="29.8" r="1.7" fill="#123a6b"/>
+</g>
+  <text x="78" y="41" font-family="Segoe UI, system-ui, sans-serif" font-size="27" font-weight="600" fill="#0f1b2d">Chat<tspan fill="#35b8e8">Fusion</tspan></text>
+</svg>
