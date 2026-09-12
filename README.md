@@ -102,11 +102,6 @@ Three pages are served on the port shown in the window, 8357 by default.
 Paste one into an OBS browser source. The copy buttons at the bottom of the window
 put them on your clipboard.
 
-The chat and viewer pages come from
-[AxelChatWidgets](https://github.com/3dproger/AxelChatWidgets), which is under
-AGPL-3.0 and is not part of ChatFusion. The installer ships it with its licence
-notice. The sound alert page is part of ChatFusion.
-
 ## How it works
 
 A small local server merges every connector into one stream and publishes it over
