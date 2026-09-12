@@ -29,11 +29,17 @@ code is maintained privately.
 
 ## Download and install
 
-1. Download `ChatFusion-Setup-x.y.z.exe` from the
-   [releases](https://github.com/verticalhost/ChatFusion-releases/releases) page.
-2. Run it. The installer is per user and needs no administrator rights.
-3. Type your channel names, click **Apply and connect**, and paste the OBS links
-   into a browser source.
+Pick the file for your system on the
+[releases](https://github.com/verticalhost/ChatFusion-releases/releases) page:
+
+| System | File | Then |
+| --- | --- | --- |
+| Windows 10 and 11 | `ChatFusion-Setup-x.y.z.exe` | Run it. The installer is per user and needs no administrator rights. |
+| Linux, any distribution | `ChatFusion-x.y.z-x86_64.AppImage` | Make it executable (`chmod +x`) and run it. No installation. |
+| Debian, Ubuntu, Mint | `ChatFusion-x.y.z-amd64.deb` | Install it with `sudo apt install ./ChatFusion-x.y.z-amd64.deb`. |
+
+Then type your channel names, click **Apply and connect**, and paste the OBS links
+into a browser source.
 
 Your channels are saved in your user profile, so an update or a reinstall does not
 erase them.
@@ -41,11 +47,16 @@ erase them.
 Windows may show a SmartScreen notice the first time, because the installer is not
 signed with a commercial certificate. Choose *More info*, then *Run anyway*.
 
+On Linux, the AppImage needs FUSE 2 (`libfuse2`), which most distributions ship;
+Ubuntu 22.04 and later may need `sudo apt install libfuse2`.
+
 ### Updates
 
-The app updates itself. It checks this repository in the background, downloads a
-newer version quietly, and then shows a banner in the window with a single
-**Restart and install** button. Nothing installs until you click it.
+The app updates itself on Windows and with the AppImage. It checks this repository
+in the background, downloads a newer version quietly, and then shows a banner in the
+window with a single **Restart and install** button. Nothing installs until you
+click it. The .deb does not update itself: download the new package and install it
+over the old one.
 
 ## Supported platforms
 
