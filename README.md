@@ -104,6 +104,15 @@ Three pages are served on the port shown in the window, 8357 by default.
 Paste one into an OBS browser source. The copy buttons at the bottom of the window
 put them on your clipboard.
 
+
+## Show it in Discord
+
+Discord can tell your friends you are running ChatFusion while you stream.
+Nothing needs setting up in the program: this is Discord's own detection of
+what is running. In Discord, open Settings, find Registered Games under the
+activity settings, choose **Add it!** and pick ChatFusion from the list of
+running programs. Your activity then reads *Playing ChatFusion*.
+
 ## How it works
 
 A small local server merges every connector into one stream and publishes it over
