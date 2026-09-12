@@ -17,7 +17,7 @@
   <img src="misc/screenshots/window.png" alt="The ChatFusion window" width="900">
 </p>
 
-ChatFusion merges the live chat of eight streaming platforms into a single stream
+ChatFusion merges the live chat of nine streaming platforms into a single stream
 of messages. You type your channel name for each platform, and you get one chat in
 the app window, one chat overlay for OBS, a viewer counter, and a sound alert.
 
@@ -68,6 +68,7 @@ over the old one.
 | Rumble | yes | yes | yes |
 | VPZONE | yes | yes | yes |
 | SharePlay | yes | yes | yes |
+| Velora | yes | no | yes |
 | Blaze | yes | yes | yes |
 | Beam | yes | yes | yes |
 
