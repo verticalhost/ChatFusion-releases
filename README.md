@@ -127,3 +127,9 @@ a message came from. Those marks belong to their owners.
 
 Proprietary. All rights reserved. The source code is not open; the compiled
 application is distributed for personal use.
+
+---
+
+<p align="center">
+  Made by <a href="https://vpzone.tv"><strong>VPZONE.TV</strong></a>
+</p>
