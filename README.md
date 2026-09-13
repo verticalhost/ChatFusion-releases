@@ -173,10 +173,10 @@ platform actually sends it to a viewer without an account.
 
 | Platform | Follows | Subscriptions | Gifted subs and gifts | Donations | Raids |
 | --- | --- | --- | --- | --- | --- |
-| Twitch | — | yes | yes | Bits | yes |
-| YouTube Live | — | memberships | gifted memberships, Jewels | Super Chat, Super Sticker | yes |
+| Twitch | — | yes | yes | Bits, charity | yes |
+| YouTube Live | — | memberships | gifted memberships, Jewels | Super Chat, Super Sticker, YouTube Giving | yes |
 | Kick | — | yes | yes | Kicks | yes (hosts) |
-| Rumble | — | — | gifted subs | Rants | — |
+| Rumble | — | — | gifted subs | Rants | yes |
 | VPZONE | yes | yes | yes | Pixels | yes |
 | SharePlay | yes | yes | gifted subs, coin gifts | — | yes |
 | Velora | yes | yes | yes | Volts | yes |
