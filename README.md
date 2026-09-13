@@ -13,10 +13,6 @@
 
 ---
 
-<p align="center">
-  <img src="misc/screenshots/window.png" alt="The ChatFusion window" width="900">
-</p>
-
 ChatFusion merges the live chat of eleven streaming platforms into a single stream
 of messages. You add the platforms you stream on, type your channel names, and you
 get one chat in the app window, chat overlays for OBS, a viewer counter, and alert
@@ -27,6 +23,97 @@ uses the public read access each platform already offers to its own web page.
 
 This repository hosts the Windows installers and the update metadata. The source
 code is maintained privately.
+
+## A quick tour
+
+### One chat from every platform
+
+<p align="center">
+  <img src="misc/screenshots/window.png" alt="ChatFusion merging chat from Twitch, YouTube, Kick, VPZONE and WorldsWave" width="900">
+</p>
+
+Every message lands in one list, in the order it was written, with the platform's
+logo in front, the author's colour, and their badges (SUB, MOD, VIP). Emotes and
+emoji show as images. Alerts appear right in the chat as a highlighted line, so a
+new subscriber or a raid never scrolls past unnoticed. The top bar adds up the
+viewers of every platform, and each channel shows its own count and a green lamp
+while it is connected.
+
+### Only the platforms you use
+
+<p align="center">
+  <img src="misc/screenshots/add-platform.png" alt="The Add a platform list, filtered by a search" width="900">
+</p>
+
+The channel list stays short: it only shows the platforms you stream on. **Add a
+platform** opens a list with a search field; pick one, type your channel name, and
+it is added. Hover a row and click the cross to remove it.
+
+### Start, stream, stop
+
+<p align="center">
+  <img src="misc/screenshots/window-folded.png" alt="The channel panel folded away, leaving the chat the whole window" width="900">
+</p>
+
+ChatFusion opens stopped, so nothing connects until you are ready. Press **Start**:
+every platform connects and the channel panel folds away, leaving a slim rail of
+lamps and the chat the whole window. Press **Stop** and every platform drops at
+once, while the messages already on screen stay there to read.
+
+### Alert cards in OBS
+
+<p align="center">
+  <img src="misc/screenshots/obs-scene.jpg" alt="An alert card over a game in OBS" width="900">
+</p>
+
+**Copy alerts** gives you one transparent page for OBS. Follows, subscriptions,
+gifted subs, donations and raids from every platform arrive as cards, one after the
+other, each with the platform's logo, the name, the amount and any message. A thin
+bar empties while the card is on screen, so viewers know how long it stays. Place
+and resize the source in OBS like any other.
+
+<p align="center">
+  <img src="misc/screenshots/alert-styles.jpg" alt="The five alert card styles: Subtle, Glass, Neon, Pill and Big" width="900">
+</p>
+
+Five card styles, from a quiet dark card to a big centred one for the moments that
+deserve it.
+
+### Customize once, for every platform
+
+<p align="center">
+  <img src="misc/screenshots/customize.png" alt="The Alerts window: card style, live preview, sound and which alerts to show" width="900">
+</p>
+
+**Customize** opens one small window, and whatever you pick applies to every
+platform, so five platforms take no longer to set up than one:
+
+- **Card style**: A to E, with a live preview that plays through a sub, a gift, a
+  donation and a raid.
+- **Sound**: Chime, Pop or Fanfare, or **My sound** to use your own MP3, WAV or OGG
+  file. Click a sound to hear it.
+- **Alerts to show**: a switch each for follows, subscriptions, donations and gifts,
+  and raids.
+- **Test an alert**: a sample card appears in OBS straight away, so you can check the
+  style and the sound on your actual scene.
+
+### Dark or light
+
+<p align="center">
+  <img src="misc/screenshots/window-light.png" alt="ChatFusion in the light theme" width="900">
+</p>
+
+Dark by default, light in one click, and the Windows title bar follows.
+
+### Set up OBS in three steps
+
+1. In ChatFusion, add your platforms and press **Start**.
+2. Click **Copy chat**, **Copy alerts** or **Copy viewer count** at the bottom of the
+   window.
+3. In OBS, add a **Browser** source, paste the address as its URL, and place it on
+   your scene. A size of 800 × 600 suits the chat and the alerts.
+
+*The screenshots use made-up channels and messages.*
 
 ## Download and install
 
