@@ -116,7 +116,8 @@ A dash means the platform does not give that event to an anonymous viewer:
 - **Alert cards.** One OBS page for follows, subscriptions, gifts, donations and
   raids from every platform, shown one after the other with the platform's logo.
   Five card styles, picked once in Customize and applied to every platform, with a
-  switch per kind of alert and a test button to see the card in OBS.
+  switch per kind of alert and a test button to see the card in OBS. Three alert
+  sounds to pick from (chime, pop, fanfare), or your own MP3, WAV or OGG file.
 - **Sound alert.** A sound on each new message and each alert card, following the
   window's Sound switch and volume. The history replayed on connect stays silent.
 - **Only your platforms.** The channel list shows the platforms you use; the others
