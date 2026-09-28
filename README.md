@@ -13,7 +13,7 @@
 
 ---
 
-ChatFusion merges the live chat of eleven streaming platforms into a single stream
+ChatFusion merges the live chat of nineteen streaming platforms into a single stream
 of messages. You add the platforms you stream on, type your channel names, and you
 get one chat in the app window, chat overlays for OBS, a viewer counter, and alert
 cards for follows, subscriptions, gifts, donations and raids.
@@ -162,9 +162,22 @@ over the old one.
 | Blaze | yes | yes | yes |
 | Beam | yes | yes | yes |
 | WorldsWave | yes | emoji | yes |
+| Odysee | yes | no | yes |
+| Picarto | yes | yes | yes |
+| VaughnLive | yes | no | yes |
+| Owncast | yes | per-instance | yes |
+| Gosh | yes | yes | yes |
+| W.tv | yes | yes | yes |
+| Woupi | yes | yes | yes |
+| AntiSlave | yes | Kick emotes, GIFs | yes |
 
-Beam relays other platforms into its own room. If you enable Beam together with a
-platform it already carries, every message and every alert shows twice.
+Type your channel name for each platform, or paste the address of its page.
+Owncast is self-hosted, so its field takes the address of your instance
+(`live.example.org`) rather than a name.
+
+Beam and AntiSlave carry the chat of other platforms in their own room. Only what
+is written on Beam or AntiSlave itself is shown, so with Kick, Twitch or YouTube
+enabled too, nothing shows twice.
 
 ## Alerts by platform
 
@@ -177,13 +190,21 @@ platform actually sends it to a viewer without an account.
 | YouTube Live | — | memberships | gifted memberships, Jewels | Super Chat, Super Sticker, YouTube Giving | yes |
 | Kick | — | yes | yes | Kicks | yes (hosts) |
 | Rumble | — | — | gifted subs | Rants | yes |
-| VPZONE | yes | yes | yes | Pixels | yes |
+| VPZONE | yes | yes | yes | Pixels, Pulse boosts | yes |
 | SharePlay | yes | yes | gifted subs, coin gifts | — | yes |
 | Velora | yes | yes | yes | Volts | yes |
 | Pilled | — | yes | gifts, gifted subs | Goldpills | yes |
 | Blaze | yes | yes | gifts | thanks, votes | yes |
 | Beam | yes | yes | yes | Embers, tips | yes |
 | WorldsWave | yes | — | gifts | tips | — |
+| Odysee | — | — | — | tips | — |
+| Picarto | — | — | — | — | — |
+| VaughnLive | — | yes | gifted subs | superchats | — |
+| Owncast | yes, from the fediverse | — | — | — | — |
+| Gosh | yes | — | — | — | — |
+| W.tv | — | — | — | — | — |
+| Woupi | yes | yes | gifted subs | — | — |
+| AntiSlave | — | — | — | — | — |
 
 A dash means the platform does not give that event to an anonymous viewer:
 - Follows on Twitch, Kick and Rumble need the streamer's own login, and YouTube
