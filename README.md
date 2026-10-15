@@ -13,7 +13,7 @@
 
 ---
 
-ChatFusion merges the live chat of nineteen streaming platforms into a single stream
+ChatFusion merges the live chat of twenty-one streaming platforms into a single stream
 of messages. You add the platforms you stream on, type your channel names, and you
 get one chat in the app window, chat overlays for OBS, a viewer counter, and alert
 cards for follows, subscriptions, gifts, donations and raids.
@@ -170,6 +170,8 @@ over the old one.
 | W.tv | yes | yes | yes |
 | Woupi | yes | yes | yes |
 | AntiSlave | yes | Kick emotes, GIFs | yes |
+| Razo | yes | emoji, stickers | yes |
+| Starvios | yes | yes | yes |
 
 Type your channel name for each platform, or paste the address of its page.
 Owncast is self-hosted, so its field takes the address of your instance
@@ -205,6 +207,8 @@ platform actually sends it to a viewer without an account.
 | W.tv | — | — | — | — | — |
 | Woupi | yes | yes | gifted subs | — | — |
 | AntiSlave | — | — | — | — | — |
+| Razo | — | — | gifts | stickers | — |
+| Starvios | — | yes | gifted subs | Starvies | yes |
 
 A dash means the platform does not give that event to an anonymous viewer:
 - Follows on Twitch, Kick and Rumble need the streamer's own login, and YouTube
